@@ -157,6 +157,8 @@ a
 .offer
 {
  background-color: var(--background);
+ margin-top: 15%;
+ margin-bottom: 15%;
   
 }
 .offer-content
@@ -200,7 +202,8 @@ color: var(--button);
 
 .instagram
 {
-  margin: 10%;
+  
+  margin: 10% 10%;
   text-align: center;
 
  
@@ -222,7 +225,7 @@ color: var(--button);
 }
 
 .latest-deal{
- margin: 10%;
+ margin: 15% 10%;
  background-image: url(images/BG-latest\ deal.png);
  background-repeat: no-repeat;
  overflow: hidden;
@@ -318,6 +321,11 @@ footer p
     .flower-item {
         width: 80%;
     }
+    .home-left {
+    align-content:start;
+    margin-top: 20%;
+  }
+  
     .flower-card{
        
         grid-template-columns: repeat(2,1fr);
